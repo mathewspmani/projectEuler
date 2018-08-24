@@ -9,7 +9,6 @@ import math
 
 def even_fib_sum(n):
     sum2 = 0
-    
     fibfor = [1,1,2]
     while len(fibfor) <= 3*(int(math.log(n))):
         fibfor.append(fibfor[-1]+ fibfor[-2])
